@@ -2,289 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e1380d-532e-4474-9a6a-fbffbdbdf419" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-readfile-promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lite-server/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/css/YHZS.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/css/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/demo_fontclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/demo_symbol.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/demo_unicode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/iconfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/commonIconfont/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/demo_fontclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/demo_symbol.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/demo_unicode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/iconfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/iconfont/projectIconfont/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/dataNull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g1_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g1_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g2_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g2_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g3_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g3_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g4_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g4_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g5_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/g5_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/img/title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/basicInfoController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/beforeRecordController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/blackListController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/changeInfoController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/chatController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/chatListController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/choiceClassController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/choiceColorController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/choiceDayController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/choiceDepartmentController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/choiceHospitalController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/choiceVisitController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/classListController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/common/confirmController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/common/loadingController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/common/navbarController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/common/tabbarController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/common/toastController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/doVisitController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/dutyCalendarController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/dutyChangeController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/dutyListController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/editVisitController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/guidePageController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/loginController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/nurseTagManageController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/patientListController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/patientRelationController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/patientTagManageController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/professionInfoController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/scheduleController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/setOrderController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/setTemplateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/sortController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/startVisitController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/directive/writeRecordController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/external/ALert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/external/Array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/external/Date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/external/Object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/external/TextArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/external/inputTrigger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/andFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/confirm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/getClientInfo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/getUserAgent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/iconfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/initRem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/loading.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/orFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/patientFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/requestUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/setTitle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/shence.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/tabbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/timestampMarker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/toast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/txIM.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/factory/wx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/Aliyun-OSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/aLiApp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/echarts.simple.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/iscroll-infinite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/iscroll-lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/iscroll-probe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/iscroll-zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/iscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/mui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/sensorsdata.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/swiper.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/swiper.jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/swiper.jquery.umd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/swiper.jquery.umd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/swiper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/swiper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/webim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/zepto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/lib/zhugeIO.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/ng-config/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/ng-config/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/ng-config/run.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/aletrNurseInfoStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/allPatientListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/alterNurseTagStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/basicInfoStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/beforeRecordStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/blackListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/chatStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/choiceClassStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/choiceColorStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/choiceDayStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/choiceDepartmentStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/choiceHospitalStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/choiceVisitStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/classListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/contentListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/createCalenderStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/dutyCalendarStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/dutyChangeStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/dutyListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/editVisitStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/fakeMainPageStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/guidePageStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/inputConfirmDemo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/inviteNurseStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/loginStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/manageStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/messageTagStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/nurseDetailStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/nurseListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/nursePlanCounterStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/nurseTagManageStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/nurseToolCounterStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/otherPatientListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/patientDetailStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/patientListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/patientRelationStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/patientTagManageStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/patientTagStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/professionInfoStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/recentCalenderStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/selectListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/setOrderStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/setTemplateStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/settingStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/sortStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/startVisitStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/statisticStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/statisticsCountStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/tagManageStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/toolListStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/userCenterStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/js/state/writeRecordStateController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/common/confirmController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/common/loadingController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/common/navbarController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/common/tabbarController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/common/toastController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/basicInfoController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/beforeRecordController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/blackListController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/changeInfoController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/chatController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/chatListController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/choiceClassController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/choiceColorController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/choiceDayController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/choiceDepartmentController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/choiceHospitalController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/choiceVisitController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/classListController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/doVisitController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/dutyCalendarController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/dutyChangeController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/dutyListController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/editVisitController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/guidePageController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/loginController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/nurseTagManageController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/patientListController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/patientRelationController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/patientTagManageController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/professionInfoController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/scheduleController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/setOrderController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/setTemplateController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/sortController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/startVisitController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/controller/writeRecordController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/aletrNurseInfoState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/allPatientListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/alterNurseTagState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/basicInfoState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/beforeRecordState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/blackListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/chatState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/choiceClassState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/choiceColorState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/choiceDayState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/choiceDepartmentState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/choiceHospitalState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/choiceVisitState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/classListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/contentListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/createCalenderStateController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/doVisitState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/dutyCalendarState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/dutyChangeState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/dutyListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/editVisitState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/fakeMainPageState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/guidePageState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/inviteNurseState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/loginState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/manageState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/messageTagState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/nurseDetailState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/nurseListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/nursePlanCounterState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/nurseTagManageState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/nurseToolCounterState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/otherPatientListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/patientDetailState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/patientRelationState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/patientTagManageState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/patientTagState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/professionInfoState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/pushPatientListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/recentCalenderState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/scheduleState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/selectListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/setNurseData.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/setOrderState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/setTemplateState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/settingState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/sortState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/startVisitState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/statisticState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/statisticsCountState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/tagManageState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/toolListState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/userCenterState.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/templates/state/writeRecordState.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_dev/node.js" afterPath="$PROJECT_DIR$/node_dev/node.js" />
     </list>
     <ignored path="YH-Node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -310,11 +29,25 @@
       <file leaf-file-name="node.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node_dev/node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+            <state relative-caret-position="597">
+              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
               <folding>
+                <element signature="e#314#1000#0" expanded="false" />
+                <element signature="e#1020#1101#0" expanded="false" />
                 <element signature="e#1104#1134#0" expanded="false" />
+                <element signature="n#!!block;n#getIdxArr#0" expanded="false" />
+                <element signature="n#!!block;n#IsOkOfUrl#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -327,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node_dev/node.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/node_dev/node.js" />
       </list>
     </option>
   </component>
@@ -503,7 +236,7 @@
       <workItem from="1481005303304" duration="2847000" />
       <workItem from="1481009654850" duration="219000" />
       <workItem from="1481010197344" duration="734000" />
-      <workItem from="1481011009129" duration="788000" />
+      <workItem from="1481011009129" duration="2671000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1481005602342</created>
@@ -516,11 +249,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4588000" />
+    <option name="totallyTimeSpent" value="6471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-131" width="1920" height="1057" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09899947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -528,18 +261,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2816616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -570,7 +303,11 @@
         <state relative-caret-position="735">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
+            <element signature="e#314#1000#0" expanded="false" />
+            <element signature="e#1020#1101#0" expanded="false" />
             <element signature="e#1104#1134#0" expanded="false" />
+            <element signature="n#!!block;n#getIdxArr#0" expanded="false" />
+            <element signature="n#!!block;n#IsOkOfUrl#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -588,7 +325,11 @@
         <state relative-caret-position="750">
           <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
           <folding>
+            <element signature="e#314#1000#0" expanded="false" />
+            <element signature="e#1020#1101#0" expanded="false" />
             <element signature="e#1104#1134#0" expanded="false" />
+            <element signature="n#!!block;n#getIdxArr#0" expanded="false" />
+            <element signature="n#!!block;n#IsOkOfUrl#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -606,19 +347,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#314#1000#0" expanded="false" />
+            <element signature="e#1020#1101#0" expanded="false" />
             <element signature="e#1104#1134#0" expanded="false" />
+            <element signature="n#!!block;n#getIdxArr#0" expanded="false" />
+            <element signature="n#!!block;n#IsOkOfUrl#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -634,12 +380,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_dev/node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        <state relative-caret-position="597">
+          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
           <folding>
+            <element signature="e#314#1000#0" expanded="false" />
+            <element signature="e#1020#1101#0" expanded="false" />
             <element signature="e#1104#1134#0" expanded="false" />
+            <element signature="n#!!block;n#getIdxArr#0" expanded="false" />
+            <element signature="n#!!block;n#IsOkOfUrl#0" expanded="false" />
           </folding>
         </state>
       </provider>
