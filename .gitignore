@@ -10,3 +10,4 @@ src/css/*.css.map
 all.js
 all.min.js
 .DS_Store
+.idea
