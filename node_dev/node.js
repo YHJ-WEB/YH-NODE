@@ -79,15 +79,14 @@ var config = eval(configData);
 router.all("/*", function (req, res) {
     for (var i = 0; i < config.length; i++) {
         if (IsOkOfUrl(config[i].url, req.url) && config[i].method == req.method) {
-            res.send(fun(config[i].path, req));
+            res.send(getData(config[i].path, req));
             break;
         }
     }
     res.send(errorList[1]);
 });
 
-
-function fun (path, req) {
+function getData (path, req) {
     var data = fs.readFileSync(path, 'utf8');
     var simplyData = data.replace(/[\r\n]/g, "");
     var noteIdxArr = getIdxArr(simplyData, "<", ">");
@@ -95,7 +94,7 @@ function fun (path, req) {
     var mdData = simplyData;
 
     for (var i = 0; i < noteIdxArr.length; i++) {
-        noteArr.push(mdData.slice(noteIdxArr[i].left, noteIdxArr[i].right + 1))
+        noteArr.push(mdData.slice(noteIdxArr[i].left, noteIdxArr[i].right + 1));
         mdData = simplyData;
     }
     for (var m = 0; m < noteArr.length; m++) {
