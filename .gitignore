@@ -2,11 +2,11 @@ node_modules
 test
 pro
 logs
-.idea/workspace.xml
+.idea
 main.css
 main.min.css
 src/css/*.css
 src/css/*.css.map
-all.js
+all.git
 all.min.js
 .DS_Store
