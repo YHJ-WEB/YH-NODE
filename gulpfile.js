@@ -86,7 +86,7 @@ gulp.task('img', function () {
 
 // 编译sass
 gulp.task('sass', function () {
-    del(['./src/css/YHZS.css']);
+    // del(['./src/css/YHZS.css']);
     return gulp.src('./src/css/YHZS.scss')
         .pipe(plumber())
         .pipe(sass())
@@ -96,7 +96,7 @@ gulp.task('sass', function () {
 });
 
 // 合并、压缩、重命名css
-gulp.task('css', ['sass'], function () {
+gulp.task('css', function () {
     var cssOption = {
         advanced: false,//类型：Boolean 默认：true [是否开启高级优化（合并选择器等）]
         compatibility: '*',//保留ie7及以下兼容写法 类型：String 默认：''or'*' [启用兼容模式； 'ie7'：IE7兼容模式，'ie8'：IE8兼容模式，'*'：IE9+兼容模式]
@@ -122,6 +122,9 @@ gulp.task('css', ['sass'], function () {
         .pipe(gulp.dest('test/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss(cssOption))
+        .pipe(gulp.dest('test/css'))
+
+
         .pipe(gulp.dest('pro/css'))
         .pipe(notify({message: 'css task ok'}));
 });
@@ -210,10 +213,10 @@ gulp.task('proMainJs', ['js'], function () {
 
 // 默认任务
 gulp.task('default', function () {
-    gulp.run('img', 'css', 'lint', 'js', 'html', 'lib', 'iconfont', 'proMainJs', 'proMainIndex', 'sass', 'testJs');
+    gulp.run('img', 'sass', 'lint', 'js', 'html', 'css', 'lib', 'iconfont', 'proMainJs', 'proMainIndex', 'testJs');
 
     // Watch .html files
-    gulp.watch(['src/**/*.html'], ['html']);
+    gulp.watch(['src/**/*.html'], ['html', 'proMainIndex']);
 
     // Watch .scss files
     gulp.watch(['src/css/*.scss', 'src/css/**/*.scss', 'src/css/**/**/*.scss'], ['sass']);
@@ -222,7 +225,7 @@ gulp.task('default', function () {
     gulp.watch(['src/css/**/*.css', '!src/css/main.css', '!src/css/main.min.css'], ['css']);
 
     // Watch .js files
-    gulp.watch(['src/js/**/*.js', '!src/js/all.js', '!src/js/all.min.js'], ['lint', 'js']);
+    gulp.watch(['src/js/**/*.js', '!src/js/all.js', '!src/js/all.min.js'], ['lint', 'js', 'proMainJs']);
 
     // Watch image files
     // gulp.watch('src/images/*', ['img']);

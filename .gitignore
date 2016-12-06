@@ -3,7 +3,6 @@ test
 pro
 logs
 .idea
-!/.idea/
 main.css
 main.min.css
 src/css/*.css
