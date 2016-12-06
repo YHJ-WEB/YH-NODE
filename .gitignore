@@ -7,6 +7,6 @@ main.css
 main.min.css
 src/css/*.css
 src/css/*.css.map
-all.js
+all.git
 all.min.js
 .DS_Store
