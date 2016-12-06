@@ -96,7 +96,7 @@ gulp.task('sass', function () {
 });
 
 // 合并、压缩、重命名css
-gulp.task('css', function () {
+gulp.task('css', ['sass'], function () {
     var cssOption = {
         advanced: false,//类型：Boolean 默认：true [是否开启高级优化（合并选择器等）]
         compatibility: '*',//保留ie7及以下兼容写法 类型：String 默认：''or'*' [启用兼容模式； 'ie7'：IE7兼容模式，'ie8'：IE8兼容模式，'*'：IE9+兼容模式]
@@ -129,7 +129,7 @@ gulp.task('css', function () {
 // iconfont输出
 gulp.task('iconfont', function () {
     return gulp.src(['src/iconfont/**/*'])
-        // .pipe(gulpFilter('!src/iconfont/**/demo.css'))
+    // .pipe(gulpFilter('!src/iconfont/**/demo.css'))
         .pipe(plumber())
         .pipe(gulp.dest('test/iconfont'))
         .pipe(gulp.dest('pro/iconfont'))
