@@ -42,6 +42,12 @@
       path: './node_dev/md/signout.md'
     },
     {
+      url: '/api/nurses/followup/pages/templates',
+      title: '创建随访模版',
+      method: 'POST',
+      path: './node_dev/md/createFollowUpTemplatePages'
+    },
+    {
       url: '/api/nurses/followup/pages',
       title: '发起随访',
       method: 'POST',
@@ -58,5 +64,17 @@
       title: '连接客户端和用户',
       method: 'POST',
       path: './node_dev/md/createDeviceClient.md'
+    },
+    {
+      url: '/api/nurses/:nurseId/colleagues',
+      title: '获取所有同事',
+      method: 'GET',
+      path: './node_dev/md/allColleagues.md'
+    },
+    {
+      url: '/api/nurses/:nurseId/patients',
+      title: '获取所有患者',
+      method: 'GET',
+      path: './node_dev/md/allPatients.md'
     }
 ]

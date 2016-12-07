@@ -74,6 +74,7 @@ var resultErr = {
 // });
 
 var configData = fs.readFileSync('./node_dev/config.md', 'utf8');
+configData = removeAnnotation(configData);
 var config = eval(configData);
 
 router.all("/*", function (req, res) {
@@ -88,20 +89,7 @@ router.all("/*", function (req, res) {
 
 function getData (path, req) {
     var data = fs.readFileSync(path, 'utf8');
-    var simplyData = data.replace(/[\r\n]/g, "");
-    var noteIdxArr = getIdxArr(simplyData, "<", ">");
-    var noteArr = [];
-    var mdData = simplyData;
-
-    for (var i = 0; i < noteIdxArr.length; i++) {
-        noteArr.push(mdData.slice(noteIdxArr[i].left, noteIdxArr[i].right + 1));
-        mdData = simplyData;
-    }
-    for (var m = 0; m < noteArr.length; m++) {
-        var noteStr = noteArr[m];
-        noteStr = new RegExp(noteStr, 'g');
-        simplyData = simplyData.replace(noteStr, "");
-    }
+    var simplyData = removeAnnotation(data);
     simplyData = "{" + simplyData + "}";
     var sendData = '';
     try {
@@ -167,6 +155,24 @@ function IsOkOfUrl(local_url, request_url) {
         rx = new RegExp(rx);
         return rx.test(request_url);
     }
+}
+
+function removeAnnotation(data) {
+    var simplyData = data.replace(/[\r\n]/g, "");
+    var noteIdxArr = getIdxArr(simplyData, "<", ">");
+    var noteArr = [];
+    var mdData = simplyData;
+
+    for (var i = 0; i < noteIdxArr.length; i++) {
+        noteArr.push(mdData.slice(noteIdxArr[i].left, noteIdxArr[i].right + 1));
+        mdData = simplyData;
+    }
+    for (var m = 0; m < noteArr.length; m++) {
+        var noteStr = noteArr[m];
+        noteStr = new RegExp(noteStr, 'g');
+        simplyData = simplyData.replace(noteStr, "");
+    }
+    return simplyData;
 }
 
 module.exports = router;
