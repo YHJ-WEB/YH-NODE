@@ -75,16 +75,26 @@ var resultErr = {
 
 var configData = fs.readFileSync('./node_dev/config.md', 'utf8');
 configData = removeAnnotation(configData);
-var config = eval(configData);
+var config = '';
+try {
+    config = eval("("+configData+")");
+} catch (e) {
+    config = e;
+}
 
 router.all("/*", function (req, res) {
-    for (var i = 0; i < config.length; i++) {
-        if (IsOkOfUrl(config[i].url, req.url) && config[i].method == req.method) {
-            res.send(getData(config[i].path, req));
-            break;
+    if (config instanceof  Array) {
+        for (var i = 0; i < config.length; i++) {
+            if (IsOkOfUrl(config[i].url, req.url) && config[i].method == req.method) {
+                res.send(getData(config[i].path, req));
+                break;
+            }
         }
+        res.send(errorList[1]);
+    } else {
+        resultErr.result.displayMsg = "请检查config文件格式是否正确";
+        res.send(resultErr);
     }
-    res.send(errorList[1]);
 });
 
 function getData (path, req) {
