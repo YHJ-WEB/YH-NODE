@@ -17,9 +17,9 @@
         },
         "token": "A_very_long_string_token_with_128_bit",
         "personType": "nurse",
-        "newly": true,
+        "newly": false,
         "nurse": {
-          "nurseId": 1,
+          "id": 1,
           "name": "巫梓菱",
           "avatarUrl": "http://www.youhujia.com/img/home_icon.png",
           "phone": "18614041815",

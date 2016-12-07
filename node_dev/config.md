@@ -52,5 +52,11 @@
       title: '发起随访建立聊天',
       method: 'POST',
       path: './node_dev/md/p2p-chat.md'
+    },
+    {
+      url: '/api/nurses/msg/push/client-infos',
+      title: '连接客户端和用户',
+      method: 'POST',
+      path: './node_dev/md/createDeviceClient.md'
     }
 ]
