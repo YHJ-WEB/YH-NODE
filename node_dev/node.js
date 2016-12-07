@@ -85,7 +85,7 @@ try {
 router.all("/*", function (req, res) {
     if (config instanceof  Array) {
         for (var i = 0; i < config.length; i++) {
-            if (IsOkOfUrl(config[i].url, req.url) && config[i].method == req.method) {
+            if (IsOkOfUrl(config[i].url, req.url) && config[i].method.toUpperCase() == req.method) {
                 res.send(getData(config[i].path, req));
                 break;
             }
@@ -104,7 +104,7 @@ function getData (path, req) {
     var sendData = '';
     try {
         var testData = JSON.parse(simplyData);
-        if (testData["method"] == req.method) {
+        if (testData["method"].toUpperCase() == req.method) {
             testData = testData["testCase"];
             for (var i = 0; i < testData.length; i++) {
                 if (testData[i].name == 'default') {
